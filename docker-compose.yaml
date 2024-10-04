@@ -1,0 +1,8 @@
+name: jekyll-theme-cayman-dev
+services:
+  jekyll-theme-cayman-dev:
+    build: .
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/site
